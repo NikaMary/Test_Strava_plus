@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[1 Init test run]]>
@@ -17,72 +17,60 @@
       <![CDATA[0 Done]]>
     </line>
     <line>
-      <![CDATA[1 Check that page url equals to 'https://www.strava.com/dashboard']]>
+      <![CDATA[1 Check that page url equals to 'https://www.strava.com/athletes/20828680']]>
     </line>
     <line>
-      <![CDATA[1 Check that page url matches to 'https://www.strava.com/dashboard']]>
+      <![CDATA[1 Check that page url matches to 'https://www.strava.com/athletes/20828680']]>
     </line>
     <line>
-      <![CDATA[1 Check that page url contains to 'https://www.strava.com/dashboard']]>
+      <![CDATA[1 Check that page url contains to 'https://www.strava.com/athletes/20828680']]>
     </line>
     <line>
-      <![CDATA[1 Check that page title equals to '']]>
+      <![CDATA[1 Check that page title equals to 'Strava Runner Profile | Dmitry S.']]>
     </line>
     <line>
-      <![CDATA[1 Check that page title matches to '']]>
+      <![CDATA[1 Check that page title matches to 'Strava Runner Profile | Dmitry S.']]>
     </line>
     <line>
-      <![CDATA[1 Check that page title contains to '']]>
+      <![CDATA[1 Check that page title contains to 'Strava Runner Profile | Dmitry S.']]>
     </line>
     <line>
-      <![CDATA[1 Login as User(name:123; password:123) (LoginForm 'Login Form' (.loginForm; No locator))]]>
+      <![CDATA[1 Click on element (Button 'Un Follow You' (FollowForm.unFollowYou; css='.primary.button.fixed-small.unfollow'))]]>
     </line>
     <line>
       <![CDATA[0 Done]]>
     </line>
     <line>
-      <![CDATA[1 Check that page url equals to 'https://www.strava.com/login']]>
+      <![CDATA[1 Click on element (Button 'Follow You' (FollowForm.followYou; css='.primary.button.btn-primary.follow.fixed-small'))]]>
     </line>
     <line>
-      <![CDATA[1 Check that page url matches to 'https://www.strava.com/login']]>
-    </line>
-    <line>
-      <![CDATA[1 Check that page url contains to 'https://www.strava.com/login']]>
-    </line>
-    <line>
-      <![CDATA[1 Check that page title equals to '']]>
-    </line>
-    <line>
-      <![CDATA[1 Check that page title matches to '']]>
-    </line>
-    <line>
-      <![CDATA[1 Check that page title contains to '']]>
+      <![CDATA[0 Done]]>
     </line>
     <line>
       <![CDATA[1 Test run finished. 
-Total test run time: 00:00:15.0]]>
+Total test run time: 00:00:14.8]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14853" started-at="2019-01-03T17:19:30Z" finished-at="2019-01-03T17:19:45Z">
+  <suite name="Default suite" duration-ms="14669" started-at="2019-01-05T08:39:28Z" finished-at="2019-01-05T08:39:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14853" started-at="2019-01-03T17:19:30Z" finished-at="2019-01-03T17:19:45Z">
-      <class name="org.mytests.tests.example.SimpleTest">
-        <test-method status="PASS" signature="jdiSetUp()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="jdiSetUp" is-config="true" duration-ms="466" started-at="2019-01-03T20:19:29Z" finished-at="2019-01-03T20:19:30Z">
+    <test name="Default test" duration-ms="14669" started-at="2019-01-05T08:39:28Z" finished-at="2019-01-05T08:39:42Z">
+      <class name="org.mytests.tests.example.FriendTest">
+        <test-method status="PASS" signature="jdiSetUp()[pri:0, instance:org.mytests.tests.example.FriendTest@25bbe1b6]" name="jdiSetUp" is-config="true" duration-ms="357" started-at="2019-01-05T11:39:27Z" finished-at="2019-01-05T11:39:28Z">
           <reporter-output>
             <line>
               <![CDATA[1 Init test run]]>
             </line>
           </reporter-output>
         </test-method> <!-- jdiSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="setUp" is-config="true" duration-ms="71" started-at="2019-01-03T20:19:30Z" depends-on-methods="com.epam.jdi.uitests.web.testng.testRunner.TestNGBase.jdiSetUp" finished-at="2019-01-03T20:19:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.mytests.tests.example.FriendTest@25bbe1b6]" name="setUp" is-config="true" duration-ms="55" started-at="2019-01-05T11:39:28Z" depends-on-methods="com.epam.jdi.uitests.web.testng.testRunner.TestNGBase.jdiSetUp" finished-at="2019-01-05T11:39:28Z">
           <reporter-output>
             <line>
               <![CDATA[1 Run Tests]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="loginTest" duration-ms="11632" started-at="2019-01-03T20:19:30Z" finished-at="2019-01-03T20:19:41Z">
+        <test-method status="PASS" signature="loginAs()[pri:0, instance:org.mytests.tests.example.FriendTest@25bbe1b6]" name="loginAs" duration-ms="14654" started-at="2019-01-05T11:39:28Z" finished-at="2019-01-05T11:39:42Z">
           <reporter-output>
             <line>
               <![CDATA[1 Download driver: chrome X32]]>
@@ -94,66 +82,50 @@ Total test run time: 00:00:15.0]]>
               <![CDATA[0 Done]]>
             </line>
             <line>
-              <![CDATA[1 Check that page url equals to 'https://www.strava.com/dashboard']]>
+              <![CDATA[1 Check that page url equals to 'https://www.strava.com/athletes/20828680']]>
             </line>
             <line>
-              <![CDATA[1 Check that page url matches to 'https://www.strava.com/dashboard']]>
+              <![CDATA[1 Check that page url matches to 'https://www.strava.com/athletes/20828680']]>
             </line>
             <line>
-              <![CDATA[1 Check that page url contains to 'https://www.strava.com/dashboard']]>
+              <![CDATA[1 Check that page url contains to 'https://www.strava.com/athletes/20828680']]>
             </line>
             <line>
-              <![CDATA[1 Check that page title equals to '']]>
+              <![CDATA[1 Check that page title equals to 'Strava Runner Profile | Dmitry S.']]>
             </line>
             <line>
-              <![CDATA[1 Check that page title matches to '']]>
+              <![CDATA[1 Check that page title matches to 'Strava Runner Profile | Dmitry S.']]>
             </line>
             <line>
-              <![CDATA[1 Check that page title contains to '']]>
+              <![CDATA[1 Check that page title contains to 'Strava Runner Profile | Dmitry S.']]>
             </line>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="wrongLoginTest()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="wrongLoginTest" duration-ms="3201" started-at="2019-01-03T20:19:41Z" finished-at="2019-01-03T20:19:45Z">
-          <reporter-output>
             <line>
-              <![CDATA[1 Login as User(name:123; password:123) (LoginForm 'Login Form' (.loginForm; No locator))]]>
+              <![CDATA[1 Click on element (Button 'Un Follow You' (FollowForm.unFollowYou; css='.primary.button.fixed-small.unfollow'))]]>
             </line>
             <line>
               <![CDATA[0 Done]]>
             </line>
             <line>
-              <![CDATA[1 Check that page url equals to 'https://www.strava.com/login']]>
+              <![CDATA[1 Click on element (Button 'Follow You' (FollowForm.followYou; css='.primary.button.btn-primary.follow.fixed-small'))]]>
             </line>
             <line>
-              <![CDATA[1 Check that page url matches to 'https://www.strava.com/login']]>
-            </line>
-            <line>
-              <![CDATA[1 Check that page url contains to 'https://www.strava.com/login']]>
-            </line>
-            <line>
-              <![CDATA[1 Check that page title equals to '']]>
-            </line>
-            <line>
-              <![CDATA[1 Check that page title matches to '']]>
-            </line>
-            <line>
-              <![CDATA[1 Check that page title contains to '']]>
+              <![CDATA[0 Done]]>
             </line>
           </reporter-output>
-        </test-method> <!-- wrongLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="tearDown" is-config="true" duration-ms="6" started-at="2019-01-03T20:19:45Z" finished-at="2019-01-03T20:19:45Z">
+        </test-method> <!-- loginAs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.mytests.tests.example.FriendTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="5" started-at="2019-01-05T11:39:42Z" finished-at="2019-01-05T11:39:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="jdiTearDown()[pri:0, instance:org.mytests.tests.example.SimpleTest@498d318c]" name="jdiTearDown" is-config="true" duration-ms="30" started-at="2019-01-03T20:19:45Z" depends-on-methods="org.mytests.tests.example.TestsInit.tearDown" finished-at="2019-01-03T20:19:45Z">
+        <test-method status="PASS" signature="jdiTearDown()[pri:0, instance:org.mytests.tests.example.FriendTest@25bbe1b6]" name="jdiTearDown" is-config="true" duration-ms="13" started-at="2019-01-05T11:39:42Z" depends-on-methods="org.mytests.tests.example.TestsInit.tearDown" finished-at="2019-01-05T11:39:42Z">
           <reporter-output>
             <line>
               <![CDATA[1 Test run finished. 
-Total test run time: 00:00:15.0]]>
+Total test run time: 00:00:14.8]]>
             </line>
           </reporter-output>
         </test-method> <!-- jdiTearDown -->
-      </class> <!-- org.mytests.tests.example.SimpleTest -->
+      </class> <!-- org.mytests.tests.example.FriendTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

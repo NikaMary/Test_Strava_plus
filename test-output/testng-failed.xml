@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.mytests.tests.example.SimpleTest">
+      <class name="org.mytests.tests.example.FriendTest">
         <methods>
-          <include name="wrongLoginTest"/>
+          <include name="loginAs"/>
           <include name="setUp"/>
           <include name="jdiSetUp"/>
           <include name="tearDown"/>
           <include name="jdiTearDown"/>
         </methods>
-      </class> <!-- org.mytests.tests.example.SimpleTest -->
+      </class> <!-- org.mytests.tests.example.FriendTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

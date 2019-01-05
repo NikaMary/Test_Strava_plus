@@ -101,4 +101,18 @@
             </plugin>
         </plugins>
     </reporting>
+	
+	<!--profiles-->
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<env>dev</env>
+				<driver>firefox</driver>
+				<timeout.wait.element>10</timeout.wait.element>
+				<domain>https://www.strava.com</domain>
+				<driver.getLatest>true</driver.getLatest>
+			</properties>
+		</profile>
+	</profiles>
 </project>

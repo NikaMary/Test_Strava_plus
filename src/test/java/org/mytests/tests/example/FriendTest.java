@@ -6,7 +6,9 @@ import com.epam.jdi.uitests.web.testng.testRunner.TestNGBase;
 
 import static org.mytests.uiobjects.example.site.JDIExampleSite.homePage;
 import static org.mytests.uiobjects.example.site.JDIExampleSite.login;
+import static org.mytests.uiobjects.example.site.JDIExampleSite.CheckTitle;
 import static org.mytests.uiobjects.example.site.JDIExampleSite.follow;
+import static org.mytests.uiobjects.example.site.JDIExampleSite.unFollow;
 import static org.mytests.uiobjects.example.site.JDIExampleSite.loginPage;
 import static org.mytests.uiobjects.example.site.JDIExampleSite.userPage;
 
@@ -23,24 +25,19 @@ public class FriendTest extends TestsInit{
     public void loginAs() {
         loginPage.open();
         login(new User());
-        homePage.open();
-	}
-        
-    @Test
+        homePage.open();    
     
-    public void chekUserPage() {
-        
+  
         userPage.open();
-        userPage.title().check();
-        
-    }
-    
-    @Test
-    
-    public void followAnybody() {
+        userPage.checkOpened();
+        //userPage.title().check();
+       
         
         //userPage.checkOpened();
+        //CheckTitle();
+        unFollow();
+        userPage.refresh();
         follow();
-}
+
 	}
-	
+}

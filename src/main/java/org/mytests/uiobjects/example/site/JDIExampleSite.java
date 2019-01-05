@@ -18,6 +18,7 @@ public class JDIExampleSite extends WebSite {
     public static HomePage homePage;
     public static LoginPage loginPage;
     public static UserPage userPage;
+    
     public static LoginForm loginForm;
     public static FollowForm followForm;
     
@@ -29,12 +30,13 @@ public class JDIExampleSite extends WebSite {
     public static void login(User user) {
     	//loginlink.click();
         loginForm.loginAs(user);
+    	//loginForm.enter.click();
        
                 
     }
     
     @Step
-    public static boolean follow ()  {
+    public static boolean CheckTitle ()  {
     	
     	boolean chekResalt;    
     	chekResalt = userPage.title().check();
@@ -42,6 +44,22 @@ public class JDIExampleSite extends WebSite {
     	return chekResalt;
     	//System.out.println(followForm.follow.getText());
     	
+    }
+    
+    @Step
+    public static void follow() {
+    	
+    	//System.out.println(followForm.followYou);
+    
+    	followForm.followYou.click();
+    }
+    
+    @Step
+    public static void unFollow() {
+    	
+    	//System.out.println(followForm.followYou);
+    
+    	followForm.unFollowYou.click();
     }
     
 }

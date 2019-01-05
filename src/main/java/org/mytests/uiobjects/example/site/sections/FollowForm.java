@@ -8,13 +8,15 @@ import org.mytests.uiobjects.example.entities.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.FindBy;
 
-public class FollowForm {
+public class FollowForm extends Form<User>{
 	
 	
 	
 	
-	//@Css (".primary.button.btn-primary.follow.fixed-small")
-	@FindBy (css = "body/div.view/div.page.container/div.athlete-profile/div.profile-heading.profile.section/div.row/div.spans5/div.follow-action/button")
-	public Button follow; 
+	@Css (".primary.button.btn-primary.follow.fixed-small") public Button followYou; 
+	@Css (".primary.button.fixed-small.unfollow") public Button unFollowYou; 
+	
 
+	//@FindBy ( id ="notifications-button") public Button followYou; 
+	
 }

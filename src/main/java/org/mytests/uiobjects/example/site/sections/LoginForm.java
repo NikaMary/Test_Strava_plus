@@ -12,5 +12,6 @@ public class LoginForm extends Form<User> {
 	@Css("[id=email]") public TextField name;
     @Css("[id=password]") public TextField password;
     //@Css("[id=login-button]") public Button enter;
-    @Css(".button.btn-primary") public Button enter;
+    @FindBy (id = "login-button") public Button enter;
+    //@Css("[id=login-button]") public Button enter;
 }
