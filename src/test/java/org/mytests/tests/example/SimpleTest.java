@@ -21,7 +21,7 @@ public class SimpleTest extends TestsInit {
         homePage.clearCache();
     }
     
-  /*   
+     
    @Test
    public void wrongLoginTest() {
 	   homePage.open();
@@ -36,6 +36,6 @@ public class SimpleTest extends TestsInit {
        //homePage.clearCache();
        //System.out.println("Hi");
    
-   }*/
+   }
     
 }
